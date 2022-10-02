@@ -89,7 +89,7 @@ body {
     width: 200px;
     height: 200px;
     background-color: red;
-    clip-path: circle(50px at 30% 50%);
+    clip-path: circle();
 }
 
 .tmain {
