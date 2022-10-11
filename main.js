@@ -19,7 +19,7 @@ document.querySelector(".control-buttons span").onclick = function () {
 
   // Remove Splash Screen
   document.querySelector(".control-buttons").remove();
-
+  document.querySelector("is-flipped").add();
 };
 
 // Effect Duration
@@ -36,9 +36,9 @@ let blocks = Array.from(blocksContainer.children);
 
 let orderRange = Array.from(Array(blocks.length).keys());
 
-// console.log(orderRange);
+ console.log(orderRange);
 shuffle(orderRange);
-// console.log(orderRange);
+ console.log(orderRange);
 
 // Add Order Css Property To Game Blocks
 blocks.forEach((block, index) => {
