@@ -4,6 +4,10 @@
 
 # Import SQLite Module
 import sqlite3
+import pyfiglet
+import termcolor
+print(termcolor.colored(pyfiglet.figlet_format("abdullah"), color="blue"))
+
 
 # Create Database And Connect
 uid = input("what is your id ")
@@ -113,7 +117,6 @@ def update_skill():
 if user_input in commands_list:
 
     #print(f"Command Found {user_input}")
-    
 
     if user_input == "s":
 
