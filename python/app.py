@@ -3,15 +3,19 @@
 # -----------------------------------------------------
 
 # Import SQLite Module
+a = 0
 import sqlite3
 import pyfiglet
 import termcolor
-print(termcolor.colored(pyfiglet.figlet_format("abdullah"), color="blue"))
+
+
 
 
 # Create Database And Connect
 uid = input("what is your id ")
 uid1 = input("pleas whrite you id")
+
+
 
 db = sqlite3.connect("app.db")
 

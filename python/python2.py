@@ -14,7 +14,7 @@ color = input("what is the color? ")
 print(termcolor.colored(pyfiglet.figlet_format(
     msg, font=random.choice(fonts)), color=color))
 
-status = input("whrite any thing to show status")
+status = input("whrite any thing to show status? ")
 print("word: " + msg)
 print("color: " + color)
 print("font: " + random.choice(fonts))
