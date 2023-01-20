@@ -22,23 +22,23 @@ t = int( random.choice(dividend) )
 
 
 
-b = int( input(f" {p} + {v} = ") )
-c = int( input(f" {x} + {y} = ") )
-d = int( input(f" {e} + {t} = ") )
+b = int( input(f" {p} x {v} = ") )
+c = int( input(f" {x} x {y} = ") )
+d = int( input(f" {e} x {t} = ") )
 
 
-if p + v == b:
+if p * v == b:
     e1 = "[green]correct"
 else:
     e1 = "[red]false"
 
 
-if x + y == c:
+if x * y == c:
     e2 = "[green]correct"
 else:
     e2 = "[red]false"
 
-if e + t == d:
+if e * t == d:
     e3 = "[green]correct"
 else:
     e3 = "[red]false"
