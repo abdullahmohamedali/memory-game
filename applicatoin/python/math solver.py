@@ -1,7 +1,9 @@
 
 import random
 from rich import print
-from pprint import pprint
+
+def print_fff():
+    print("hello")
 
 dividend = ['1', '2', '3','4','5','6','7','8','9','10']
 divisour = ['1', '2', '3','4','5','6','7','8','9','10']
@@ -9,6 +11,8 @@ qoint = ['1', '2', '3','4','5','6','7','8','9','10']
 e1 = 0
 e2 = 0
 e3 = 0
+
+score = 0
 
 p = int( random.choice(dividend) )
 v =  int( random.choice(divisour) )
@@ -28,22 +32,28 @@ d = int( input(f" {e} x {t} = ") )
 
 
 if p * v == b:
-    e1 = "[green]correct"
+    e1 = "[green]correct[/blue]"
+    score +=10
 else:
-    e1 = "[red]false"
-
+    e1 = "[red]false[/red]"
+    score -=5
 
 if x * y == c:
-    e2 = "[green]correct"
+    e2 = "[green]correct[/green]"
+    score +=10
 else:
-    e2 = "[red]false"
-
+    e2 = "[red]false[/red]"
+    score -=5
 if e * t == d:
-    e3 = "[green]correct"
+    e3 = "[green]correct[/green]"
+    score +=10
 else:
     e3 = "[red]false"
-
+    score -=5
 print(f"q1 {e1} ")
 print(f"q2 {e2}")
 print(f"q3 {e3}")
+
+print(f"your score is {score}")
+
 
