@@ -32,20 +32,20 @@ d = int( input(f" {e} x {t} = ") )
 
 
 if p * v == b:
-    e1 = "[green]correct[/blue]"
+    e1 = "[green]correct"
     score +=10
 else:
-    e1 = "[red]false[/red]"
+    e1 = "[red]false"
     score -=5
 
 if x * y == c:
-    e2 = "[green]correct[/green]"
+    e2 = "[green]correct"
     score +=10
 else:
-    e2 = "[red]false[/red]"
+    e2 = "[red]false"
     score -=5
 if e * t == d:
-    e3 = "[green]correct[/green]"
+    e3 = "[green]correct"
     score +=10
 else:
     e3 = "[red]false"
