@@ -19,6 +19,7 @@ uid1 = input("pleas whrite you id")
 
 db = sqlite3.connect("app.db")
 
+
 # Setting Up The Cursor
 cr = db.cursor()
 
