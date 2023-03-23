@@ -1,6 +1,0 @@
-name, points
-ddd, 100
-fff, 230
-vvv, 567
-bbb, 000
-

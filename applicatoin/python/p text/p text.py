@@ -11,6 +11,8 @@ msg = input("what would you like to print? ")
 fonts = ["isometric1", "isometric3", "bell", "big",
          "block",  "alphabet"]
 color = input("what is the color? ")
+
+
 print(termcolor.colored(pyfiglet.figlet_format(
     msg, font=random.choice(fonts)), color=color))
 
