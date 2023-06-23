@@ -14,6 +14,7 @@ Current_x = 0
 Current_y = 0
 color = 'black'
 tybe = 5
+
 def locate_xy(work):
 
     global Current_x, Current_y
