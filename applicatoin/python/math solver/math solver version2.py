@@ -26,11 +26,11 @@ while True:
         correct_answers += 1
     else:
         time.sleep(1)
-        print("oops wrong answer")
+        print("oops wrong answer\n")
         incorrect_answers -= 1
 
     print(f"correct answers => {correct_answers}")
-    print(f"incorrect anserwes => {incorrect_answers}")
+    print(f"incorrect anserwes => {incorrect_answers}\n")
     del problem, problem1
     problem = random.choice(numbers)
     problem1 = random.choice(numbers)
