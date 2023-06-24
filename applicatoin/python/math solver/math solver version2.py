@@ -35,9 +35,9 @@ while True:
     problem = random.choice(numbers)
     problem1 = random.choice(numbers)
 
-    if correct_answers == 100:
+    if correct_answers == 10:
         print("great job you won the game")
-    elif incorrect_answers == 100:
+    elif incorrect_answers == 10:
         print("you are terribale at math")
 
     
